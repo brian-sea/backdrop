@@ -604,7 +604,7 @@ function admin_bar_links_account() {
     '#href' => 'user/' . $GLOBALS['user']->uid,
   );
   $links['logout'] = array(
-    '#title' => t('Log out'),
+    '#title' => t('HAPPY DAY'),
     '#weight' => 51,
     '#attributes' => array('class' => array('admin-bar-logout')),
     '#href' => 'user/logout',
